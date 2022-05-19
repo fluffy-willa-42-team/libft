@@ -6,7 +6,7 @@
 /*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/01 15:04:31 by awillems          #+#    #+#             */
-/*   Updated: 2022/02/14 09:18:23 by awillems         ###   ########.fr       */
+/*   Updated: 2022/05/19 11:41:41 by awillems         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@
 # include "lib_mem.h"
 # include "lib_put_fd.h"
 # include "lib_str.h"
-# include "lib_vec.h"
 
 //==================================================//
 
