@@ -60,7 +60,21 @@ OBJ_EXT		= .o
 CODE_EXT	= .c
 HEAD_EXT	= .h
 INC			= -I include
-FLAGS		= -Wall -Wextra -Werror -g3
+FLAGS		= -Wall -Wextra -Werror
+
+# **************************************************************************** #
+
+DEBUG		= 0
+SANI		= 0
+
+ifeq ($(SANI), 1)
+	FLAGS += -fsanitize=address
+	DEBUG = 1
+endif
+
+ifeq ($(DEBUG), 1)
+	FLAGS += -g3
+endif
 
 # **************************************************************************** #
 
@@ -69,6 +83,7 @@ NAME		= libft.a
 # **************************************************************************** #
 
 all: $(DIR) $(ALL_LIB) $(NAME)
+	@if [ $(DEBUG) = 1 ]; then printf "$(COLOR_RED)/!\ DEBUG ENABLE /!\$(COLOR_NORMAL)\nFlag used:\n"; printf "    %s\n" $(FLAGS); fi
 
 # Creates every repositories if it does not exist
 $(DIR):
@@ -105,9 +120,6 @@ clean:
 		make -sC $$path clean;\
 	done
 
-c:
-	@rm -rf $(OBJ)
-
 # **************************************************************************** #
 
 fclean:
@@ -115,9 +127,6 @@ fclean:
 	@for path in $(ALL_LIB); do \
 		make -sC $$path fclean;\
 	done
-
-fc:
-	@rm -rf $(OBJ) $(INC_DIR)* $(NAME)
 
 # **************************************************************************** #
 
@@ -129,8 +138,6 @@ print_src:
 # **************************************************************************** #
 
 re: fclean all
-
-r: fc all
 
 # **************************************************************************** #
 
