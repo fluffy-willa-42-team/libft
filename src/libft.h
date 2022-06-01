@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/01 15:04:31 by awillems          #+#    #+#             */
-/*   Updated: 2022/05/19 11:41:41 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:19:24 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,10 @@
 # include "lib_mem.h"
 # include "lib_put_fd.h"
 # include "lib_str.h"
+
+#  ifdef WRA
+# include "wraloc.h"
+#  endif /* WRA */
 
 //==================================================//
 

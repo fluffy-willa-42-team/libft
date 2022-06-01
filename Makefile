@@ -66,6 +66,7 @@ FLAGS		= -Wall -Wextra -Werror
 
 DEBUG		= 0
 SANI		= 0
+WRA			= 0
 
 ifeq ($(SANI), 1)
 	FLAGS += -fsanitize=address
@@ -74,6 +75,10 @@ endif
 
 ifeq ($(DEBUG), 1)
 	FLAGS += -g3
+endif
+
+ifeq ($(WRA), 1)
+	FLAGS += -D WRA -I include/debug
 endif
 
 # **************************************************************************** #
