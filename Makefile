@@ -66,12 +66,10 @@ WRA			= 0
 ifeq ($(SANI), 1)
 	FLAGS += -fsanitize=address
 	DEBUG = 1
-	MAKE_FLAG += SANI=1
 endif
 
 ifeq ($(DEBUG), 1)
 	FLAGS += -g3
-	MAKE_FLAG += DEBUG=1
 endif
 
 ifeq ($(WRA), 1)
