@@ -117,8 +117,8 @@ $(DIR):
 # Compiles every lib in the lib repository
 lib_comp:
 	@for path in $(ALL_LIB); do \
-		if [ -f $$path/makefile ];
-			then make -sC $$path $(MAKE_FLAG) all; 
+		if [ -f $$path/makefile ];\
+			then make -sC $$path $(MAKE_FLAG) all; \
 		fi; \
 	done
 
@@ -149,8 +149,8 @@ clean:
 	@rm -rf $(OBJ)
 	@for path in $(ALL_LIB); do \
 		if [ -f $$path/makefile ]; then \
-		make -sC $$path clean;\
-		else echo "No makefile"; fi; \
+			make -sC $$path clean;\
+		fi; \
 	done
 
 c:
@@ -162,8 +162,8 @@ fclean:
 	@rm -rf $(OBJ) $(INC_DIR)* $(NAME)
 	@for path in $(ALL_LIB); do \
 		if [ -f $$path/makefile ]; then \
-		make -sC $$path fclean;\
-		else echo "No makefile"; fi; \
+			make -sC $$path fclean;\
+		fi; \
 	done
 
 fc:
