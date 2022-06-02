@@ -117,7 +117,9 @@ $(DIR):
 # Compiles every lib in the lib repository
 lib_comp:
 	@for path in $(ALL_LIB); do \
-		if [ -f $$path/makefile ]; then make -sC $$path $(MAKE_FLAG) all; else echo "No makefile"; fi; \
+		if [ -f $$path/makefile ];
+			then make -sC $$path $(MAKE_FLAG) all; 
+		fi; \
 	done
 
 # Takes any C/CPP files and transforms into an object into the OBJ_DIR
@@ -146,7 +148,6 @@ print:
 clean:
 	@rm -rf $(OBJ)
 	@for path in $(ALL_LIB); do \
-		printf "    [%s]\n" $$path;\
 		if [ -f $$path/makefile ]; then \
 		make -sC $$path clean;\
 		else echo "No makefile"; fi; \
@@ -160,7 +161,6 @@ c:
 fclean:
 	@rm -rf $(OBJ) $(INC_DIR)* $(NAME)
 	@for path in $(ALL_LIB); do \
-		printf "    [%s]\n" $$path;\
 		if [ -f $$path/makefile ]; then \
 		make -sC $$path fclean;\
 		else echo "No makefile"; fi; \
