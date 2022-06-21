@@ -6,7 +6,7 @@
 /*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/01 15:04:31 by awillems          #+#    #+#             */
-/*   Updated: 2022/06/01 14:36:31 by mahadad          ###   ########.fr       */
+/*   Updated: 2022/06/21 14:30:35 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@
 # include <fcntl.h>
 # include <stdarg.h>
 
-#  ifdef WRA
-# include "wraloc.h"
-#  endif /* WRA */
+# ifdef WRA
+#  include "wraloc.h"
+# endif /* WRA */
 
 # include "lib_atoi.h"
 # include "lib_file.h"
