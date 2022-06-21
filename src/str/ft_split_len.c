@@ -3,15 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split_len.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 09:34:57 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/07 11:16:25 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:40:45 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
-#include <stdio.h>
 
 /**
  * @brief Takes a NULL terminated array of Strings an returns the number of

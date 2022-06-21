@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 14:12:01 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 10:32:27 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:38:22 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_str.h"
+#include <stdlib.h>
 
 /**
  * @brief Allocates and creats a copy of the given string after start for the

@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/06 14:40:47 by awillems          #+#    #+#             */
-/*   Updated: 2021/11/24 09:55:50 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:56:00 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_list.h"
+#include <stdlib.h>
 
 /**
  * @brief Libère la mémoire de l’élément passé en argument

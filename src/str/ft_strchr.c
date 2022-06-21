@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 09:55:35 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:45:10 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 14:28:04 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 /**
  * @brief Find the given character in the String.

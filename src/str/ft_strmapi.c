@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 10:21:06 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 10:36:55 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:44:58 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_str.h"
+#include <stdlib.h>
 
 /**
  * @brief Creates a copy of the given string and then applies the fuction f

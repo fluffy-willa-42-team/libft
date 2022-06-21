@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 13:14:04 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:30:23 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:52:22 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_put_fd.h"
 
 static void	ft_putnbr_recursive(unsigned int nb, int fd)
 {

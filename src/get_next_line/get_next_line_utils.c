@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/19 10:30:14 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:05:27 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 14:12:52 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
+#include "lib_str.h"
 
 void	gnl_substr(char **n, char const *s, size_t start, size_t len)
 {

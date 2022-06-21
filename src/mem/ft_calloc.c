@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 14:14:59 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:15:11 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:54:58 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_mem.h"
+#include <stdlib.h>
 
 /**
  * @brief Allocates memory and sets it to zero for the given size.

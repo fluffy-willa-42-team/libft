@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 14:14:56 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:23:29 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:55:13 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_mem.h"
+#include <stddef.h>
 
 /**
  * @brief Sets to zero the given array for the given length.

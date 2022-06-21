@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 11:49:05 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:37:37 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:41:19 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_str.h"
+#include <stdlib.h>
 
 static int	ft_getword(char const *str, char c, size_t max, size_t start)
 {
