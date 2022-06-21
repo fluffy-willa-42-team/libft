@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_int.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 10:16:21 by awillems          #+#    #+#             */
-/*   Updated: 2022/02/08 10:32:20 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 14:24:35 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include <stdio.h>
+#include "lib_str.h"
+#include "lib_is_check.h"
 
 static int	ft_is_in_size(char *str, int nb_before, int nb_zero, int nb_digit)
 {

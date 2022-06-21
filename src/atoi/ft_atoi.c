@@ -6,11 +6,12 @@
 /*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/01 16:46:59 by awillems          #+#    #+#             */
-/*   Updated: 2022/05/27 14:37:10 by mahadad          ###   ########.fr       */
+/*   Updated: 2022/06/21 14:24:28 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <limits.h>
+#include "lib_is_check.h"
 
 /**
  * @brief Covert an string to an integer. Format : ""

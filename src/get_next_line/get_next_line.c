@@ -3,14 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/19 09:55:20 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:07:19 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 14:12:42 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include "lib_get_next_line.h"
+#include "lib_str.h"
+#include "lib_mem.h"
 
 static size_t	has_the_end(char *buffer)
 {

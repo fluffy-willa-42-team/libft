@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 10:20:40 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 09:55:20 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:42:34 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_str.h"
+#include <stdlib.h>
 
 /**
  * @brief Takes two strings and fusion them.

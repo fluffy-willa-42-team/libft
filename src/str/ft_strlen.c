@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/01 14:41:30 by awillems          #+#    #+#             */
-/*   Updated: 2022/02/08 09:05:28 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:56:09 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "lib_str.h"
+#include <limits.h>
 
 /**
  * @brief Gives the length of a given string.

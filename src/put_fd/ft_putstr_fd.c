@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 13:14:07 by awillems          #+#    #+#             */
-/*   Updated: 2022/05/19 11:39:18 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:52:54 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <unistd.h>
+#include "lib_str.h"
 
 /**
  * @brief Put a string in the given file.

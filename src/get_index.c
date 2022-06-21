@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   get_index.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 09:12:02 by awillems          #+#    #+#             */
-/*   Updated: 2022/02/14 09:18:09 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:40:31 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	get_index(int index, int len)
 {

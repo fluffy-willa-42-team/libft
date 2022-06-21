@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 10:20:34 by awillems          #+#    #+#             */
-/*   Updated: 2022/01/04 10:35:35 by awillems         ###   ########.fr       */
+/*   Updated: 2022/06/21 13:43:40 by mahadad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
+#include "lib_mem.h"
+#include "lib_str.h"
 
 /**
  * @brief Creates a copy of a given strings to another section of the memory.
