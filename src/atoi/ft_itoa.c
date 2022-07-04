@@ -12,7 +12,7 @@
 
 #include <stdlib.h>
 
-static int	ft_find_size(int n)
+int	ft_itoa_len(int n)
 {
 	int				size;
 	unsigned int	temp;
@@ -63,7 +63,7 @@ char	*ft_itoa(int n)
 	char			*res;
 	int				len;
 
-	len = ft_find_size(n);
+	len = ft_itoa_len(n);
 	res = malloc(sizeof(char) * (len + 1));
 	if (!res)
 		return (NULL);

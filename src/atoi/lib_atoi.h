@@ -17,6 +17,7 @@
 
 int		ft_atoi(const char *str);
 int		*ft_atoi_malloc(const char *str);
+int		ft_itoa_len(int n);
 char	*ft_itoa(int n);
 int		ft_is_whitespace(char c);
 int		ft_is_int(char *str);
