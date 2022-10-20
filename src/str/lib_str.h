@@ -35,7 +35,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 char	**ft_split(char const *s, char c);
 int		ft_split_len(char **splited);
-int		charsetstr_strict(const char *str, char *set)
+int		charsetstr_strict(const char *str, char *set);
 
 //==================================================//
 
