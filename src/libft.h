@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mahadad <mahadad@student.s19.be>           +#+  +:+       +#+        */
+/*   By: awillems <awillems@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/01 15:04:31 by awillems          #+#    #+#             */
-/*   Updated: 2022/06/21 14:32:17 by mahadad          ###   ########.fr       */
+/*   Updated: 2024/02/12 13:54:36 by awillems         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,6 @@
 //==================================================//
 
 # include <stddef.h>
-
-# ifdef WRA
-#  include "wraloc.h"
-# endif /* WRA */
 
 # include "lib_atoi.h"
 # include "lib_file.h"
