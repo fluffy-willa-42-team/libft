@@ -234,10 +234,6 @@ git:
 	@git commit -am "Makefile push `date +'%Y-%m-%d %H:%M:%S'`"
 	@-git push
 
-fluffy:
-	git config user.name "matthew-dreemurr"
-	git config user.email "hadadmat@gmail.com"
-
 # **************************************************************************** #
 
 .PHONY: remove_stuff, update_lib, update, ping, ping_lib, git
